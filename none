@@ -1,0 +1,147 @@
+[9016] Log opened at 2019-06-03 18:43:50
+[9016] I: Connecting to configured address/port: localhost:9001.
+[9016] E: Time-out connecting to client (Waited: 200 ms). :-(
+[9016] Log closed at 2019-06-03 18:43:50
+[9016]
+[8224] Log opened at 2019-06-03 18:44:03
+[8224] I: Connecting to configured address/port: localhost:9001.
+[8224] E: Time-out connecting to client (Waited: 200 ms). :-(
+[8224] Log closed at 2019-06-03 18:44:03
+[8224]
+[9128] Log opened at 2019-06-03 18:44:15
+[9128] I: Connecting to configured address/port: localhost:9001.
+[9128] E: Time-out connecting to client (Waited: 200 ms). :-(
+[9128] Log closed at 2019-06-03 18:44:15
+[9128]
+[5084] Log opened at 2019-06-03 18:57:30
+[5084] I: Connecting to configured address/port: localhost:9001.
+[5084] E: Time-out connecting to client (Waited: 200 ms). :-(
+[5084] Log closed at 2019-06-03 18:57:30
+[5084]
+[10700] Log opened at 2019-06-03 18:58:15
+[10700] I: Connecting to configured address/port: localhost:9001.
+[10700] E: Time-out connecting to client (Waited: 200 ms). :-(
+[10700] Log closed at 2019-06-03 18:58:15
+[10700]
+[7800] Log opened at 2019-06-03 18:58:27
+[7800] I: Connecting to configured address/port: localhost:9001.
+[7800] E: Time-out connecting to client (Waited: 200 ms). :-(
+[7800] Log closed at 2019-06-03 18:58:27
+[7800]
+[8776] Log opened at 2019-06-03 18:58:30
+[8776] I: Connecting to configured address/port: localhost:9001.
+[8776] E: Time-out connecting to client (Waited: 200 ms). :-(
+[8776] Log closed at 2019-06-03 18:58:30
+[8776]
+[7336] Log opened at 2019-06-03 18:58:33
+[7336] I: Connecting to configured address/port: localhost:9001.
+[7336] E: Time-out connecting to client (Waited: 200 ms). :-(
+[7336] Log closed at 2019-06-03 18:58:33
+[7336]
+[7820] Log opened at 2019-08-27 14:52:52
+[7820] I: Connecting to configured address/port: localhost:9001.
+[7820] I: Connected to client. :-)
+[7820] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///C:/OSPanel/domains/localhost/Catalog/index.php" language="PHP" xdebug:language_version="7.3.4-dev" protocol_version="1.0" appid="7820" idekey="Sergus"><engine version="2.7.0"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2019 by Derick Rethans]]></copyright></init>
+[7820]
+[7820] <- feature_set -i 1 -n show_hidden -v 1
+[7820] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="1" feature="show_hidden" success="1"></response>
+[7820]
+[7820] <- feature_set -i 2 -n max_depth -v 1
+[7820] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="2" feature="max_depth" success="1"></response>
+[7820]
+[7820] <- feature_set -i 3 -n max_children -v 100
+[7820] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="3" feature="max_children" success="1"></response>
+[7820]
+[7820] <- feature_set -i 4 -n extended_properties -v 1
+[7820] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="4" feature="extended_properties" success="1"></response>
+[7820]
+[7820] <- feature_set -i 5 -n resolved_breakpoints -v 1
+[7820] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="5" status="starting" reason="ok"><error code="3"><message><![CDATA[invalid or missing options]]></message></error></response>
+[7820]
+[7820] <- status -i 6
+[7820] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="status" transaction_id="6" status="starting" reason="ok"></response>
+[7820]
+[7820] <- step_into -i 7
+[7820] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="step_into" transaction_id="7" status="break" reason="ok"><xdebug:message filename="file:///C:/OSPanel/domains/localhost/Catalog/index.php" lineno="3"></xdebug:message></response>
+[7820]
+[7820] <- run -i 8
+[7820] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="run" transaction_id="8" status="stopping" reason="ok"></response>
+[7820]
+[7820] <- stop -i 9
+[7820] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="stop" transaction_id="9" status="stopped" reason="ok"></response>
+[7820]
+[7820] Log closed at 2019-08-27 14:52:52
+[7820]
+[7552] Log opened at 2019-08-27 14:53:03
+[7552] I: Connecting to configured address/port: localhost:9001.
+[7552] I: Connected to client. :-)
+[7552] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///C:/OSPanel/domains/localhost/Catalog/index.php" language="PHP" xdebug:language_version="7.3.4-dev" protocol_version="1.0" appid="7552" idekey="Sergus"><engine version="2.7.0"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2019 by Derick Rethans]]></copyright></init>
+[7552]
+[7552] <- feature_set -i 1 -n show_hidden -v 1
+[7552] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="1" feature="show_hidden" success="1"></response>
+[7552]
+[7552] <- feature_set -i 2 -n max_depth -v 1
+[7552] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="2" feature="max_depth" success="1"></response>
+[7552]
+[7552] <- feature_set -i 3 -n max_children -v 100
+[7552] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="3" feature="max_children" success="1"></response>
+[7552]
+[7552] <- feature_set -i 4 -n extended_properties -v 1
+[7552] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="4" feature="extended_properties" success="1"></response>
+[7552]
+[7552] <- feature_set -i 5 -n resolved_breakpoints -v 1
+[7552] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="5" status="starting" reason="ok"><error code="3"><message><![CDATA[invalid or missing options]]></message></error></response>
+[7552]
+[7552] <- status -i 6
+[7552] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="status" transaction_id="6" status="starting" reason="ok"></response>
+[7552]
+[7552] <- step_into -i 7
+[7552] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="step_into" transaction_id="7" status="break" reason="ok"><xdebug:message filename="file:///C:/OSPanel/domains/localhost/Catalog/index.php" lineno="3"></xdebug:message></response>
+[7552]
+[7552] <- run -i 8
+[7552] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="run" transaction_id="8" status="stopping" reason="ok"></response>
+[7552]
+[7552] <- stop -i 9
+[7552] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="stop" transaction_id="9" status="stopped" reason="ok"></response>
+[7552]
+[7552] Log closed at 2019-08-27 14:53:03
+[7552]
+[3128] Log opened at 2019-08-27 14:53:05
+[3128] I: Connecting to configured address/port: localhost:9001.
+[3128] I: Connected to client. :-)
+[3128] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///C:/OSPanel/domains/localhost/Catalog/index.php" language="PHP" xdebug:language_version="7.3.4-dev" protocol_version="1.0" appid="3128" idekey="Sergus"><engine version="2.7.0"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2019 by Derick Rethans]]></copyright></init>
+[3128]
+[3128] <- feature_set -i 1 -n show_hidden -v 1
+[3128] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="1" feature="show_hidden" success="1"></response>
+[3128]
+[3128] <- feature_set -i 2 -n max_depth -v 1
+[3128] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="2" feature="max_depth" success="1"></response>
+[3128]
+[3128] <- feature_set -i 3 -n max_children -v 100
+[3128] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="3" feature="max_children" success="1"></response>
+[3128]
+[3128] <- feature_set -i 4 -n extended_properties -v 1
+[3128] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="4" feature="extended_properties" success="1"></response>
+[3128]
+[3128] <- feature_set -i 5 -n resolved_breakpoints -v 1
+[3128] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="5" status="starting" reason="ok"><error code="3"><message><![CDATA[invalid or missing options]]></message></error></response>
+[3128]
+[3128] <- status -i 6
+[3128] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="status" transaction_id="6" status="starting" reason="ok"></response>
+[3128]
+[3128] <- step_into -i 7
+[3128] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="step_into" transaction_id="7" status="break" reason="ok"><xdebug:message filename="file:///C:/OSPanel/domains/localhost/Catalog/index.php" lineno="3"></xdebug:message></response>
+[3128]
+[3128] <- run -i 8
+[3128] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="run" transaction_id="8" status="stopping" reason="ok"></response>
+[3128]
+[3128] <- stop -i 9
+[3128] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="stop" transaction_id="9" status="stopped" reason="ok"></response>
+[3128]
+[3128] Log closed at 2019-08-27 14:53:05
+[3128]
+[5608] Log opened at 2019-08-27 14:53:11
+[5608] I: Connecting to configured address/port: localhost:9001.
+[5608] E: Time-out connecting to client (Waited: 200 ms). :-(
+[5608] Log closed at 2019-08-27 14:53:11
+[5608]
